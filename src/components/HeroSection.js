@@ -6,13 +6,15 @@ import '../App.css';
 function HeroSection() {
     return (
         <div className = 'hero-container'>
-            <video src = "video-1.mp4" autoPlay loop muted />
+         <video src='video-2.mp4' autoPlay loop muted />
             <h1>S Suryanarayanan</h1>
             <p>Lets make this  a Success!</p>
             <div className="hero-btns">
-              <Button className ="btns"  buttonStyle='btn--outline'
+              <Button className ="btns" 
+               buttonStyle='btn--outline'
               buttonSize='btn--large'>
-               My Resume <i className ='far fa-play-circle'/>   
+              <a className ="btns" href="intern.pdf" download = "Resume.pdf"> </a>   
+               My Resume 
               </Button>
 
             </div>
