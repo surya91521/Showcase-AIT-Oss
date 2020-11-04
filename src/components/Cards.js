@@ -1,10 +1,12 @@
 import React from 'react';
 import './Cards.css';
 import CardItem from './CardItem';
+import Fade from 'react-reveal/Fade'
 
 function Cards() {
   return (
-    <div className='cards'>
+    <div className='cards' style ={{ 'background': 'url('+process.env.PUBLIC_URL + '/assets/images/back.jpg) center center/cover no-repeat'}}>
+      <Fade Top>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -46,6 +48,7 @@ function Cards() {
           </ul>
         </div>
       </div>
+      </Fade>
     </div>
   );
 }
