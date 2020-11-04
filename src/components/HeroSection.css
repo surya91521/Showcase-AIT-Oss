@@ -6,6 +6,15 @@ video{
     z-index: -1;
 }
 
+.typis{
+
+    margin-top: 50px;
+    color: cornsilk;
+    align-content: center;
+    max-width: 768px;
+    justify-content: center;
+}
+
 .hero-container{
    
     height: 100vh;

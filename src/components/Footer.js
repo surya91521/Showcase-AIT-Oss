@@ -36,7 +36,6 @@ function Footer() {
      </div>
       </section>
      <p>Phone No : +91 8427516566</p>
-     <br></br>
      <p>Email Id : surya91521@gmail.com</p> 
     </div>
   );

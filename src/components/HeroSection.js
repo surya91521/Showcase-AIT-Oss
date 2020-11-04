@@ -2,6 +2,7 @@ import React from 'react';
 import {Button} from "./Button";
 import './HeroSection.css';
 import '../App.css';
+import Typist from 'react-typist';
 import Fade from 'react-reveal/Fade'
 import ReactRoundedImage from "react-rounded-image";
 import profile from '../xx.jpg';
@@ -31,12 +32,18 @@ function HeroSection() {
                  My Resume     
                 </Button>
                 </a>   
-            
-             
-
             </div>
             </Fade >
-
+        <Typist className = "typis">
+       
+        Hello Everyone I am currently pursuing a BE degree in Computer Engineering.
+        I love to work with different tech stacks and playing with software technologies,
+        I am a very cheerful person with the quality of adapting to my surroundings quickly.
+        I have keen interest in android dev, Web dev and have good problem solving and analytical 
+        skills.Apart from all this I have a keen interest in Anime(Hardcore Fan) and play basketball.
+       
+        </Typist> 
+       
         </div>
     )
 
