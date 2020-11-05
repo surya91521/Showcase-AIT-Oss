@@ -1,19 +1,18 @@
 import React from 'react';
 import './Footer.css';
-import { Button } from './Button';
-import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faGithub,
   faFacebook,
   faTwitter,
-  faInstagram
+  faInstagram,
+  faLinkedinIn
 } from "@fortawesome/free-brands-svg-icons";
 
 function Footer() {
   return (
     <div className='footer-container'>
-      <h3>Follown Me On</h3>
+      <h3>Follow Me On</h3>
       <section className='footer-subscription'>
       <div class="social-container">
       
@@ -32,6 +31,10 @@ function Footer() {
       <a href="https://www.instagram.com/_hades_009/"
             className="instagram social">
             <FontAwesomeIcon icon={faInstagram} size="3x" />
+      </a>
+      <a href="https://www.linkedin.com/in/s-suryanarayanan-04b600188/"
+            className="linkedin social">
+            <FontAwesomeIcon icon={faLinkedinIn} size="3x" />
       </a>
      </div>
       </section>

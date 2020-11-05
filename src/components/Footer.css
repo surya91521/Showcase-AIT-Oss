@@ -60,6 +60,15 @@
     color: rgb(243, 21, 232);
   }
 
+  a.linkedin{
+    color: #fff;
+  }
+
+  a.linkedin :hover{
+    color: rgb(10, 163, 235);
+  }
+
+
  
   
   @media screen and (max-width: 820px) {

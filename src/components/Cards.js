@@ -13,36 +13,36 @@ function Cards() {
             <CardItem
               src='/assets/images/skills.jpg'
               text='Skills'
-              path='/skills'
+              path='/Skills'
             />
             <CardItem
               src='/assets/images/projects.jpg'
               text='My Projects'
-              path='/projects'
+              path='/Projects'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src='/assets/images/courses.jpg'
               text='Courses Certificates'
-              path='/courses'
+              path='/Courses'
             />
             <CardItem
               src='/assets/images/coding.jpg'
               text='Coding and Blogs'
-              path='/coding'
+              path='/Coding'
             />
           </ul>
           <ul className='cards__items'>
           <CardItem
               src='/assets/images/awards.jpg'
               text='Award and Honours'
-              path='/awards'
+              path='/Awards'
             />
                 <CardItem
               src='/assets/images/intern.jpg'
               text='Internships'
-              path='/internships'
+              path='/Internships'
             />
           
           </ul>
