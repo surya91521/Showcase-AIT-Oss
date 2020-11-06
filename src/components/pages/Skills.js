@@ -1,9 +1,16 @@
-import React from 'react'
+import React from 'react';
+import '../../App.css'
+
 
 function Skills() {
     return (
-        <div>
-          <h1>Skills section</h1>  
+        <div className ="toppskills">
+          <h1 style={{fontFamily:"serif"}}>Skills section</h1> 
+          <div className="skills-container">
+            <div className="Tech">
+           
+            </div>  
+          </div> 
         </div>
     )
 }

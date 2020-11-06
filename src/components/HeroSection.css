@@ -6,10 +6,12 @@ video{
     z-index: -1;
 }
 
+
 .typis{
 
     margin-top: 50px;
     color: cornsilk;
+    font-family: "serif";
     align-content: center;
     max-width: 768px;
     justify-content: center;

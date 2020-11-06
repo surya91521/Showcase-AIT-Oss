@@ -13,15 +13,17 @@ function HeroSection() {
         <div className = 'hero-container' style ={{ 'background': 'url('+process.env.PUBLIC_URL + '/assets/images/night.jpg) center center/cover no-repeat'}} >
             
          {/* <video src='video-2.mp4' autoPlay loop muted /> */}
+        
         <Fade top>
+        
          < ReactRoundedImage 
             image ={profile}
           roundedColor="#FFFFFF"
           imageWidth="300"
           imageHeight="300"
-          roundedSize="5"
-           />
-            <p>S Suryanarayanan</p>
+          roundedSize="5"/>
+        
+            <p style={{fontFamily:"serif"}}>S Suryanarayanan</p>
             
             <div className="hero-btns">
               <a className ="btns" href={process.env.PUBLIC_URL+'/assets/intern.pdf'} download> 
@@ -34,7 +36,7 @@ function HeroSection() {
                 </a>   
             </div>
             </Fade >
-        <Typist className = "typis">
+        <Typist className = "typis" style={{fontFamily:"serif"}}>
        
         Hello Everyone I am currently pursuing a BE degree in Computer Engineering.
         I love to work with different tech stacks and playing with software technologies,

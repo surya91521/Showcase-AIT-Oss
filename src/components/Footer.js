@@ -12,9 +12,9 @@ import {
 function Footer() {
   return (
     <div className='footer-container'>
-      <h3>Follow Me On</h3>
-      <section className='footer-subscription'>
-      <div class="social-container">
+      <h3 style={{fontFamily:"serif"}}>Follow Me On</h3>
+   
+      <div className="social-container">
       
       <a href="https://github.com/surya91521"
             className="github social">
@@ -36,10 +36,14 @@ function Footer() {
             className="linkedin social">
             <FontAwesomeIcon icon={faLinkedinIn} size="3x" />
       </a>
+      
      </div>
-      </section>
-     <p>Phone No : +91 8427516566</p>
-     <p>Email Id : surya91521@gmail.com</p> 
+     <div className='last'>
+      <p style={{fontFamily:"serif"}}>
+       Phone No : +91 8427516566<br/><br />
+      Email Id : surya91521@gmail.com
+      </p>
+      </div>
     </div>
   );
 }

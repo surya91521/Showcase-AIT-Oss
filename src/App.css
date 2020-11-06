@@ -14,29 +14,49 @@
   }
 
   .topmost{
-    margin-top: 50px;
+    padding-top: 50px;
     justify-items: center;
     align-items: center;
+    padding-bottom: 50px;
   }
 
+  .contain{
+   
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    align-content: center;
+    justify-items: center;
+  }
    
   .innercontain{
     margin-top: 50px;
-    justify-items: center;
+    justify-content: center;
     align-items: center;
-    display: flex;
+    align-content: center;
+    justify-items: center;
     flex-direction: column;
   }
 
  .card-deck{
    margin-top: 40px;
+   max-width: 1120px;
+   align-content: center;
+   justify-content: center;
    margin-bottom: 30px;
-   box-shadow: 0 6px 30px rgba(2, 96, 236, 0.17);
-   -webkit-filter: drop-shadow(0 6px 40px rgba(203, 207, 216, 0.017));
-   filter: drop-shadow(0 6px 40px rgba(222, 225, 231, 0.017));
    margin-left: 50px;
+
    margin-right: 50px;
  } 
 
+
+ .card:hover{
+  transition: transform 250ms;
+  transform: scale(1.05);
+
+     box-shadow: 0 10px 10px rgba(6, 90, 245, 0.973), 0 5px 5px rgb(7, 247, 187);
+}
  
+
+
 

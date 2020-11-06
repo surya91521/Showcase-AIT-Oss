@@ -1,0 +1,39 @@
+
+.projectTop{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+
+  margin-top: 50px;
+}
+
+
+
+body {
+    font-family: sans-serif;
+     margin: 0;
+     background: #f2f2f2;
+  }
+  
+  h1 {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  p {
+    text-align: center;
+    padding-bottom:30px;
+  }
+  
+ 
+  
+  
