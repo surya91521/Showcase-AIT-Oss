@@ -6,6 +6,8 @@
     
 }
 
+
+
 .card1:hover{
   transition: transform 250ms;
   transform: scale(1.03);

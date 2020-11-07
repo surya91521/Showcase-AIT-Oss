@@ -10,10 +10,11 @@ import profile from '../xx.jpg';
 
 function HeroSection() {
     return (
+      
         <div className = 'hero-container' style ={{ 'background': 'url('+process.env.PUBLIC_URL + '/assets/images/night.jpg) center center/cover no-repeat'}} >
             
          {/* <video src='video-2.mp4' autoPlay loop muted /> */}
-        
+       
         <Fade top>
         
          < ReactRoundedImage 
@@ -36,8 +37,8 @@ function HeroSection() {
                 </a>   
             </div>
             </Fade >
-        <Typist className = "typis" style={{fontFamily:"serif"}}>
-       
+        <Typist className = "typis" style={{fontFamily:"serif"}} avgTypingDelay={30}>
+     
         Hello Everyone I am currently pursuing a BE degree in Computer Engineering.
         I love to work with different tech stacks and playing with software technologies,
         I am a very cheerful person with the quality of adapting to my surroundings quickly.
@@ -45,8 +46,9 @@ function HeroSection() {
         skills.Apart from all this I have a keen interest in Anime(Hardcore Fan) and play basketball.
        
         </Typist> 
-       
-        </div>
+     
+        </div>  
+        
     )
 
    

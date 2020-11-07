@@ -4,12 +4,14 @@
     position: relative;
 	margin: 15px 0;
 	height: 30px;
-	width: 900px;
+	width: 90%;
 }
 
+
+
 .progress-done {
-	background: linear-gradient(to left, #F2709C, #FF9472);
-	box-shadow: 0 3px 3px -5px #F2709C, 0 2px 5px #F2709C;
+	background: linear-gradient(to left,#0575E6,#00F260);
+	box-shadow: 0 3px 3px -5px #a8ff78, 0 2px 5px #78ffd6;
 	border-radius: 20px;
 	color: #fff;
 	display: flex;
@@ -21,15 +23,68 @@
 	transition: 1s ease 0.3s;
 }
 
-.Tech{
-  
-    margin-left: 20px;
-    justify-content: left;
+.topsskills{
+   
+	max-width: 1500px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
-@media screen and (max-width: 960px) {
-    .progress {
-      width: 150px;
+.toppskills{
+
+	
+	
+}
+
+.Ja{
+
+	color: rgb(253, 76, 11);
+}
+
+.fa-leaf{
+	color: rgb(10, 219, 10);
+}
+.An{
+
+	color: darkgreen;
+}
+
+.gi{
+	color: gray;
+}
+
+.fa-database{
+	color: blue;
+}
+
+.re{
+	color: rgba(4, 156, 250, 0.795);
+}
+
+.cs{
+	color: blue;
+}
+
+.ht{
+	color: orangered;
+}
+
+
+
+.fa-fire{
+	color: yellow;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .toppskills > h1 {
+      font-size: 45px;
+       
     }
-  }
   
+	.progress{
+		height:20px;
+	}
+    
+  }
