@@ -39,7 +39,7 @@ function Cards() {
             <CardItem
             className='col-md-4'
               src='/assets/images/coding.jpg'
-              text='Coding and Blogs'
+              text='Articles and Blogs'
               path='/Coding'
             />
             </div>

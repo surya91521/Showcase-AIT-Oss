@@ -16,7 +16,7 @@
 
   .social-container {
     background: #242424;
-    padding: 25px 10px;
+    padding-top: 25px ;
   }
 
   a.social {
@@ -69,4 +69,8 @@
     color: rgb(10, 163, 235);
   }
 
-
+  @media screen and (max-width: 400px) {
+    a.social {
+      margin: 0 0.75rem;
+    }
+  }

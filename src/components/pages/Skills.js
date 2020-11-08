@@ -42,24 +42,24 @@ function Skills() {
 
             <div className="col-md-6 justify-content-center"  style={{marginBottom:"40px"}}>
              <h3 style={{marginBottom:"30px" , fontFamily:"serif",color:"#fff"}}> Technical Skills</h3> 
-             <i className="fas fa-question"></i>  C/C++<Progress done="85"/>
-             <FontAwesomeIcon icon={faJava} size="1x" className="Ja"/>  Java <Progress done="70"/>
-             <FontAwesomeIcon icon={faAndroid} size="1x" className="An"/> Android<Progress done="80"/>
-             <i className="fa fa-database fa-1x" > </i> SQL<Progress done="90"/>
-             <i className="fa fa-leaf fa-1x"> </i> Mongo-DB<Progress done="50"/>
-             <FontAwesomeIcon icon={faGithub} size="1x" className="gi"/> GitHub<Progress done="70"/>
-             <FontAwesomeIcon icon={faReact} size="1x" className="re"/> React<Progress done="40"/>
-             <i className="fa fa-fire fa-1x"> </i>  Firebase<Progress done="70"/>
-             <FontAwesomeIcon icon={faHtml5} size="1x" className="ht"/> HTML<Progress done="40"/>
-             <FontAwesomeIcon icon={faCss3} size="1x" className="cs"/> CSS<Progress done="40"/>
+              <font color="#fff"> C/C++</font><Progress done="85"/>
+             <FontAwesomeIcon icon={faJava} size="1x" className="Ja"/> <font color="#fff"> Java</font> <Progress done="70"/>
+             <FontAwesomeIcon icon={faAndroid} size="1x" className="An"/><font color="#fff"> Android</font><Progress done="80"/>
+             <i className="fa fa-database fa-1x" > </i><font color="#fff"> SQL</font><Progress done="90"/>
+             <i className="fa fa-leaf fa-1x"> </i><font color="#fff"> Mondo-DB</font><Progress done="50"/>
+             <FontAwesomeIcon icon={faGithub} size="1x" className="gi"/> <font color="#fff"> GitHub</font><Progress done="70"/>
+             <FontAwesomeIcon icon={faReact} size="1x" className="re"/><font color="#fff"> React</font><Progress done="40"/>
+             <i className="fa fa-fire fa-1x"> </i>  <font color="#fff"> Firebase</font><Progress done="70"/>
+             <FontAwesomeIcon icon={faHtml5} size="1x" className="ht"/> <font color="#fff"> HTML5</font><Progress done="40"/>
+             <FontAwesomeIcon icon={faCss3} size="1x" className="cs"/> <font color="#fff"> CSS3</font><Progress done="40"/>
             </div> 
             <div className="col-md-6 justify-content-center">
              <h3 style={{marginBottom:"30px" , fontFamily:"serif",color:"#fff"}}> Soft Skills</h3> 
-             TeamWork<Progress done="90"/>
-              Time Managaement<Progress done="80"/>
-              Creative Thinker<Progress done="65"/>
-              Problem Solving<Progress done="80"/>
-              Adaptability<Progress done="90"/>
+             <font color="#fff">TeamWork</font><Progress done="90"/>
+             <font color="#fff">Time Managaement</font><Progress done="80"/>
+             <font color="#fff">Creative Thinker</font><Progress done="65"/>
+             <font color="#fff">Problem Solving</font><Progress done="80"/>
+             <font color="#fff"> Adaptability</font><Progress done="90"/>
             </div>   
             </div>
           </div>
