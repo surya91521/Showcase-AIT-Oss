@@ -1,5 +1,6 @@
 import React from 'react'
 import './Courses.css';
+import Fade from 'react-reveal/Fade'
 
 function Courses() {
    
@@ -8,6 +9,7 @@ function Courses() {
           
           <h1 style={{fontFamily:"serif",color:"white"}}>Courses Section</h1>
           <div className= 'contain'>
+           <Fade Top> 
           <div className='innerContain'>  
     
              <ul className='card-deck'>
@@ -57,6 +59,7 @@ function Courses() {
               </ul>
     
           </div>
+          </Fade>
           </div>
         </div>
     )

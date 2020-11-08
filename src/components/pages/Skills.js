@@ -46,7 +46,7 @@ function Skills() {
              <FontAwesomeIcon icon={faJava} size="1x" className="Ja"/> <font color="#fff"> Java</font> <Progress done="70"/>
              <FontAwesomeIcon icon={faAndroid} size="1x" className="An"/><font color="#fff"> Android</font><Progress done="80"/>
              <i className="fa fa-database fa-1x" > </i><font color="#fff"> SQL</font><Progress done="90"/>
-             <i className="fa fa-leaf fa-1x"> </i><font color="#fff"> Mondo-DB</font><Progress done="50"/>
+             <i className="fa fa-leaf fa-1x"> </i><font color="#fff"> Mongo-DB</font><Progress done="50"/>
              <FontAwesomeIcon icon={faGithub} size="1x" className="gi"/> <font color="#fff"> GitHub</font><Progress done="70"/>
              <FontAwesomeIcon icon={faReact} size="1x" className="re"/><font color="#fff"> React</font><Progress done="40"/>
              <i className="fa fa-fire fa-1x"> </i>  <font color="#fff"> Firebase</font><Progress done="70"/>
