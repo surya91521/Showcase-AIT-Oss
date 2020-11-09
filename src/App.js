@@ -12,15 +12,16 @@ import Awards from "./components/pages/Awards"
 
 function App(){
  
-  
+ 
   return (
+    
+  
     <>
     
-    <Router>
+    <Router >
       <Switch>
         
         <Route path='/' exact component={Home} />
-        
         <Route path='/Projects' component ={Projects}/>
         <Route path='/Skills' component={Skills}/>
         <Route path='/Courses' component={Courses}/>
@@ -32,6 +33,7 @@ function App(){
   </>
   );
 }
+
 
 
 export default App;

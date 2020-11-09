@@ -6,6 +6,8 @@ import Typist from 'react-typist';
 import Fade from 'react-reveal/Fade'
 import ReactRoundedImage from "react-rounded-image";
 import profile from '../xx.jpg';
+import Particles from 'react-particles-js';
+import particlesConfig from './configParticles';
 
 
 
@@ -15,10 +17,13 @@ function HeroSection() {
     return (
       
 
-
+     
         <div className = 'hero-container' style ={{backgroundColor:'#22162B',paddingLeft:"5px",paddingRight:"5px"}}>
-            
+         <div style={{ position: 'absolute'}}>
+        <Particles height="100vh" width="100vw" params={particlesConfig} />
+      </div>
          {/* <video src='video-2.mp4' autoPlay loop muted /> */}
+        
         <Fade top>
         
          < ReactRoundedImage 
@@ -48,7 +53,7 @@ function HeroSection() {
         I have keen interest in android dev, Web dev and have good problem solving and analytical 
         skills.Apart from all this I have a keen interest in Anime(Hardcore Fan) and play basketball.
         </Typist> 
-     
+         
         </div>  
        
     

@@ -1,8 +1,15 @@
 import React from 'react'
 import './internship.css'
 
+function componentDidMount() 
+{
+  window.scrollTo(0, 0);
+};
+
 
 function Internships() {
+
+    componentDidMount();
     return (
         <div className="outerLast" style={{background: 'url('+process.env.PUBLIC_URL + '/assets/images/back.jpg) center center/cover no-repeat'}}>
             <h1 style={{marginBottom:"40px",color:"#FFF",fontFamily:'serif'}}>Work Experience</h1>  

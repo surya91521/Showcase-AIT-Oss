@@ -1,12 +1,22 @@
 import React from 'react'
+import Fade from 'react-reveal/Fade'
 
+
+function componentDidMount() 
+{
+  window.scrollTo(0, 0);
+};
 
 function Coding() {
+  componentDidMount();
     return (
+      
         <div className="background" style={{background: 'url(' + process.env.PUBLIC_URL + '/assets/images/back.jpg) center center/cover no-repeat',paddingBottom:"30px"}}>
+         <Fade Top>
         <div className="container" >
-            <h1 style={{marginBottom:"50px",fontFamily:"serif",color:"#fff"}}>Article And Blogs</h1>
         
+            <h1 style={{marginBottom:"50px",fontFamily:"serif",color:"#fff"}}>Article And Blogs</h1>
+   
           <div class="media" style={{marginBottom:"50px"}}>
   <img class="mr-3" src="/assets/images/tuts.jpg" style={{width:"190px",height:'175px'}} alt="Generic placeholder image"/>
   <div class="media-body" style={{fontFamily:"serif",color:"#fff"}}>
@@ -15,7 +25,7 @@ function Coding() {
     <a href="https://tutswiki.com/sdkman-installing-multiple-versions-java-same-machine/" className="btn btn-primary link">View Article</a>  
   </div>
 </div>
-<div class="media" style={{marginBottom:"50px"}}>
+          <div class="media" style={{marginBottom:"50px"}}>
   <img class="mr-3" src="/assets/images/tuts.jpg" style={{width:"190px",height:'175px'}} alt="Generic placeholder image"/>
   <div class="media-body" style={{fontFamily:"serif",color:"#fff"}}>
     <h5 class="mt-0" style={{fontFamily:"serif"}}>Java RegEx</h5>
@@ -23,7 +33,7 @@ function Coding() {
     <a href="https://tutswiki.com/java/regex/" className="btn btn-primary link">View Article</a>  
   </div>
 </div>
-<div class="media" style={{marginBottom:"50px"}}>
+          <div class="media" style={{marginBottom:"50px"}}>
   <img class="mr-3" src="/assets/images/tuts.jpg" style={{width:"190px",height:'175px'}} alt="Generic placeholder image"/>
   <div class="media-body" style={{fontFamily:"serif",color:"#fff"}}>
     <h5 class="mt-0" style={{fontFamily:"serif"}}>Lambda Expressions in Java</h5>
@@ -31,7 +41,7 @@ function Coding() {
     <a href="https://tutswiki.com/java/lambda-expressions/" className="btn btn-primary link">View Article</a>  
   </div>
 </div>
-<div class="media" style={{marginBottom:"50px"}}>
+          <div class="media" style={{marginBottom:"50px"}}>
   <img class="mr-3" src="/assets/images/tuts.jpg" style={{width:"190px",height:'175px'}} alt="Generic placeholder image"/>
   <div class="media-body" style={{fontFamily:"serif",color:"#fff"}}>
     <h5 class="mt-0" style={{fontFamily:"serif"}}>Overloading and Overriding in Java</h5>
@@ -39,7 +49,7 @@ function Coding() {
    <a href="https://tutswiki.com/method-overload-vs-override-java-differences/" className="btn btn-primary link">View Article</a>  
   </div>
 </div>
-<div class="media" style={{marginBottom:"50px"}}>
+          <div class="media" style={{marginBottom:"50px"}}>
   <img class="mr-3" src="/assets/images/tuts.jpg" style={{width:"190px",height:'175px'}} alt="Generic placeholder image"/>
   <div class="media-body" style={{fontFamily:"serif",color:"#fff"}}>
     <h5 class="mt-0" style={{fontFamily:"serif"}}>Java Annotations</h5>
@@ -47,7 +57,7 @@ function Coding() {
    <a href="https://tutswiki.com/java/annotations/" className="btn btn-primary link">View Article</a>  
   </div>
 </div>
-<div class="media" style={{marginBottom:"50px"}}>
+          <div class="media" style={{marginBottom:"50px"}}>
   <img class="mr-3" src="/assets/images/tuts.jpg" style={{width:"190px",height:'175px'}} alt="Generic placeholder image"/>
   <div class="media-body" style={{fontFamily:"serif",color:"#fff"}}>
     <h5 class="mt-0"style={{fontFamily:"serif"}}>Java Grabage Collection</h5>
@@ -55,10 +65,13 @@ function Coding() {
     <a href="https://tutswiki.com/java/garbage-collection/" className="btn btn-primary link">View Article</a>  
   </div>
 </div>
-</div>
+       
+        </div>
+        </Fade>
 </div>  
        
     )
 }
+
 
 export default Coding

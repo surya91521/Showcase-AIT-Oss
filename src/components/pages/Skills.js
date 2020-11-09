@@ -9,6 +9,13 @@ import {
   faAndroid,
   faReact
 } from "@fortawesome/free-brands-svg-icons";
+import Fade from 'react-reveal/Fade'
+
+function componentDidMount() 
+{
+  window.scrollTo(0, 0);
+};
+
 
 const Progress = ({done}) => {
 	const [style, setStyle] = React.useState({});
@@ -32,8 +39,11 @@ const Progress = ({done}) => {
 }
 
 function Skills() {
-    return (
+
+    componentDidMount();
+        return (
         <div className ="toppskills " style ={{ 'background': 'url('+process.env.PUBLIC_URL + '/assets/images/back.jpg) center center/cover no-repeat'}}>
+          <Fade Top>
          <div className="topsskills container"> 
           <div className="heading" style={{marginBottom:"50px"}}>
           <h1 style={{fontFamily:"serif" ,justifyContent:"center",color:"#fff"}}>Skills section</h1> 
@@ -98,7 +108,7 @@ function Skills() {
              </ul> 
           </div>
                 
-        
+          </Fade>
         </div>
         
     )

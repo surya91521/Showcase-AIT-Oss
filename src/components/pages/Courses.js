@@ -2,12 +2,20 @@ import React from 'react'
 import './Courses.css';
 import Fade from 'react-reveal/Fade'
 
+function componentDidMount() 
+{
+  window.scrollTo(0, 0);
+};
+
+
 function Courses() {
    
+    componentDidMount();
     return (
         <div className = 'topmost' style={{'background': 'url('+process.env.PUBLIC_URL + '/assets/images/back.jpg) center center/cover no-repeat'}}>
-          
+          <Fade Top>
           <h1 style={{fontFamily:"serif",color:"white"}}>Courses Section</h1>
+          </Fade>
           <div className= 'contain'>
            <Fade Top> 
           <div className='innerContain'>  

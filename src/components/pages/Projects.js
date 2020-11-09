@@ -2,13 +2,19 @@ import React from 'react'
 import './Projects.css'
 import Fade from 'react-reveal/Fade'
 
+function componentDidMount() 
+{
+  window.scrollTo(0, 0);
+};
 
 function project() {
+  componentDidMount();
     return (
-     
-        <div className="projectTop" style={{'background': 'url('+process.env.PUBLIC_URL + '/assets/images/back.jpg) center center/cover no-repeat'}}>
        
+        <div className="projectTop" style={{'background': 'url('+process.env.PUBLIC_URL + '/assets/images/back.jpg) center center/cover no-repeat'}}>
+        <Fade Top>
         <h1 style={{fontFamily:"serif" ,color:"#fff"}}>Projects Section</h1>  
+        </Fade>
         <div class="card-columns container">
         <Fade Top>
         <div className="innermost">  
