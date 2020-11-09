@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Showcase-AIT-Oss/static/css/main.5009a5ea.chunk.css",
+    "main.js": "/Showcase-AIT-Oss/static/js/main.7aa1b3af.chunk.js",
+    "main.js.map": "/Showcase-AIT-Oss/static/js/main.7aa1b3af.chunk.js.map",
+    "runtime-main.js": "/Showcase-AIT-Oss/static/js/runtime-main.2e1be178.js",
+    "runtime-main.js.map": "/Showcase-AIT-Oss/static/js/runtime-main.2e1be178.js.map",
+    "static/js/2.9b08856b.chunk.js": "/Showcase-AIT-Oss/static/js/2.9b08856b.chunk.js",
+    "static/js/2.9b08856b.chunk.js.map": "/Showcase-AIT-Oss/static/js/2.9b08856b.chunk.js.map",
+    "index.html": "/Showcase-AIT-Oss/index.html",
+    "static/css/main.5009a5ea.chunk.css.map": "/Showcase-AIT-Oss/static/css/main.5009a5ea.chunk.css.map",
+    "static/js/2.9b08856b.chunk.js.LICENSE.txt": "/Showcase-AIT-Oss/static/js/2.9b08856b.chunk.js.LICENSE.txt",
+    "static/media/xx.7df1e923.jpg": "/Showcase-AIT-Oss/static/media/xx.7df1e923.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2e1be178.js",
+    "static/js/2.9b08856b.chunk.js",
+    "static/css/main.5009a5ea.chunk.css",
+    "static/js/main.7aa1b3af.chunk.js"
+  ]
+}
