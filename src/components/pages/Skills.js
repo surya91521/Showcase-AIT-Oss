@@ -38,7 +38,7 @@ function Skills() {
           <div className="heading" style={{marginBottom:"50px"}}>
           <h1 style={{fontFamily:"serif" ,justifyContent:"center",color:"#fff"}}>Skills section</h1> 
           </div>        
-          <div className="row justify-content-center ">
+          <div className="row justify-content-center " style={{marginBottom:"50px"}} >
 
             <div className="col-md-6 justify-content-center"  style={{marginBottom:"40px"}}>
              <h3 style={{marginBottom:"30px" , fontFamily:"serif",color:"#fff"}}> Technical Skills</h3> 
@@ -62,8 +62,45 @@ function Skills() {
              <font color="#fff"> Adaptability</font><Progress done="90"/>
             </div>   
             </div>
+            <h2 style={{fontFamily:"serif",color:"#FFF"}}>Coding Skills</h2>
+          <ul className='card-deck'>
+             <div class="row justify-content-center">
+                <div className="card1 card" style={{background:"LightCyan",width:"250px"}}>
+  <img class="card-img-top" src={process.env.PUBLIC_URL + '/assets/images/leet.jpg'} alt="Card image cap" style={{height:"200px"}}/>
+    <div class="card-body text-center">
+      <h5 class="card-title" style={{fontFamily:"serif"}}><strong>Leetcode</strong></h5>
+      <a class="btn btn-primary" href="https://leetcode.com/surya91521/">View Profile</a>
+    </div>
+    </div>
+                <div className="card1 card" style={{background:"LightCyan",width:"250px"}}>
+  <img class="card-img-top" src={process.env.PUBLIC_URL + '/assets/images/hack.jpg'} alt="Card image cap" style={{height:"200px"}}/>
+    <div class="card-body text-center">
+      <h5 class="card-title" style={{fontFamily:"serif"}}><strong>HackerRank</strong></h5>
+      <a class="btn btn-primary" href="https://www.hackerrank.com/surya91521">View Profile</a>
+    </div>
+    </div>
+                 <div className="card1 card" style={{background:"LightCyan",width:"250px"}}>
+  <img class="card-img-top" src={process.env.PUBLIC_URL + '/assets/images/gfg.jpg'} alt="Card image cap" style={{height:"200px"}}/>
+    <div class="card-body text-center">
+      <h5 class="card-title" style={{fontFamily:"serif"}}><strong>GeeksforGeeks</strong></h5>
+      <a class="btn btn-primary" href="https://auth.geeksforgeeks.org/user/user_6dgd/practice/">View Profile</a>
+    </div>
+    </div>
+                <div className="card1 card" style={{background:"LightCyan",width:"250px"}}>
+  <img class="card-img-top" src={process.env.PUBLIC_URL + '/assets/images/int.jpg'} alt="Card image cap" style={{height:"200px"}}/>
+    <div class="card-body text-center">
+      <h5 class="card-title" style={{fontFamily:"serif"}}><strong>Interview Bit</strong></h5>
+      <a class="btn btn-primary" href="https://www.interviewbit.com/profile/surya-narayanan_574/">View Profile</a>
+    </div>
+    </div>            
+              
+               </div>
+             </ul> 
           </div>
+                
+        
         </div>
+        
     )
 }
 

@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade'
 
 function Cards() {
   return (
-    <div className='cards' style ={{ 'background': 'url('+process.env.PUBLIC_URL + '/assets/images/back.jpg) center center/cover no-repeat'}}>
+    <div className='cards' style ={{backgroundColor:"#451F55"}}>
       <Fade Top className="container">
       <div className='row '>
           
@@ -55,7 +55,7 @@ function Cards() {
                 <CardItem
                 className='col-md-4'
               src='/assets/images/intern.jpg'
-              text='Internships'
+              text='Work Experienece'
               path='/Internships'
             />
             </div>

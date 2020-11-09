@@ -16,7 +16,7 @@ function HeroSection() {
       
 
 
-        <div className = 'hero-container' style ={{ 'background': 'url('+process.env.PUBLIC_URL + '/assets/images/night.jpg) center center/cover no-repeat'}}>
+        <div className = 'hero-container' style ={{backgroundColor:'#22162B',paddingLeft:"5px",paddingRight:"5px"}}>
             
          {/* <video src='video-2.mp4' autoPlay loop muted /> */}
         <Fade top>
@@ -41,7 +41,7 @@ function HeroSection() {
                 </a>   
             </div>
             </Fade >
-        <Typist className = "typis" style={{fontFamily:"serif"}} avgTypingDelay={30}>
+        <Typist className = "typis" style={{fontFamily:"serif",}} avgTypingDelay={15}>
         Hello Everyone I am currently pursuing a BE degree in Computer Engineering.
         I love to work with different tech stacks and playing with software technologies,
         I am a very cheerful person with the quality of adapting to my surroundings quickly.

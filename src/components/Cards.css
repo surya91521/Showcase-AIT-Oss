@@ -36,11 +36,11 @@
   
   .cards__item__link {
     display: flex;
-    background: black;
+    background: rgb(146, 139, 243);
     flex-flow: column;
     width: 100%;
     box-shadow: 0 6px 30px rgba(231, 233, 236, 0.17);
-    -webkit-filter: drop-shadow(0 6px 40px rgba(203, 207, 216, 0.017));
+    -webkit-filter: drop-shadow(0 6px 40px rgba(125, 160, 241, 0.017));
     filter: drop-shadow(0 6px 40px rgba(222, 225, 231, 0.017));
     border-radius: 10px;
     overflow: hidden;
