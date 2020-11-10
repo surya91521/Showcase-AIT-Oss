@@ -29,7 +29,7 @@ function Awards() {
             paddingBottom: 20,
             height:"110vh"
           }}>
-            <h1 style={{fontFamily:"serif",marginBottom:"50px"}}>Ach</h1>
+            <h1 style={{fontFamily:"serif",marginBottom:"50px"}}>Achievements</h1>
             <div className="container">
             <div class="carousel-wrapper" style={{maxWidth:"1120px"}}>
             <Carousel infiniteLoop useKeyboardArrows autoPlay interval="3000" showIndicators='False'>
