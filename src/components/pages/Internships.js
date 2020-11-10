@@ -1,6 +1,6 @@
 import React from 'react'
 import './internship.css'
-import Fade from 'react-reveal/Fade'
+
 
 function componentDidMount() 
 {
@@ -13,7 +13,7 @@ function Internships() {
     componentDidMount();
     return (
 
-        <Fade Top>
+      
         <div className="outerLast" style={{
           '--color-1': '#243B55',
           '--color-2': '#141E30',
@@ -25,8 +25,10 @@ function Internships() {
             )
           `,
           paddingBottom: 310}} >
-            <h1 style={{marginBottom:"40px",color:"#FFF",fontFamily:'serif'}}>Work Experience</h1>  
            
+            <h1 style={{marginBottom:"40px",color:"#FFF",fontFamily:'serif'}}>Work Experience</h1>  
+      
+            <div>
            <div class="card-columns container">
              
                 <div className="innermost">  
@@ -99,8 +101,10 @@ function Internships() {
                 </div>
               
            </div>
+           </div>
+       
         </div>
-        </Fade>
+       
     )
 }
 
