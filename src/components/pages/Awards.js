@@ -27,7 +27,7 @@ function Awards() {
             color: 'white',
             textAlign: 'center',
             paddingBottom: 20,
-            height:"110vh"
+            height:"120vh"
           }}>
             <h1 style={{fontFamily:"serif",marginBottom:"50px"}}>Achievements</h1>
             <div className="container">
