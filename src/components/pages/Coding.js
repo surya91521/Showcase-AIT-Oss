@@ -20,7 +20,7 @@ function Coding() {
           <div class="media" style={{marginBottom:"50px"}}>
   <img class="mr-3" src="/assets/images/tuts.jpg" style={{width:"190px",height:'175px'}} alt="Generic placeholder image"/>
   <div class="media-body" style={{fontFamily:"serif",color:"#fff"}}>
-    <h5 class="mt-0" style={{fontFamily:"serif"}}>SDK Tool</h5>
+    <h5 class="mt-0" style={{fontFamily:"serif"}}>SDKMan Tool</h5>
      If You are working on unix based system and also want to maintain diiferent versions of java in the same machine and switch between them,then surely you would want to read this article.<br /><br />
     <a href="https://tutswiki.com/sdkman-installing-multiple-versions-java-same-machine/" className="btn btn-primary link">View Article</a>  
   </div>

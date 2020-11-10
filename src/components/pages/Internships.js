@@ -70,7 +70,7 @@ function Internships() {
         
        
         <div class="modal-body" style={{fontFamily:'serif'}}>
-          Worked as a freelancer Content Writer. My main job was to write 100% unique and quality content on topics based on java and its tools.
+          Worked as a freelancer Content Writer. My main job was to write 100% unique and quality content with implementation codes  and without any plagiarism on topics based on java and its tools.
         </div>
         
     
