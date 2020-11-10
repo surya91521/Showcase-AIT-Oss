@@ -12,7 +12,16 @@ function Courses() {
    
     componentDidMount();
     return (
-        <div className = 'topmost' style={{'background': 'url('+process.env.PUBLIC_URL + '/assets/images/back.jpg) center center/cover no-repeat'}}>
+        <div className = 'topmost'  style={{
+          '--color-1': '#243B55',
+          '--color-2': '#141E30',
+          background: `
+            linear-gradient(
+              170deg,
+              var(--color-1),
+              var(--color-2) 80%
+            )
+          `}}>
           <Fade Top>
           <h1 style={{fontFamily:"serif",color:"white"}}>Courses Section</h1>
           </Fade>

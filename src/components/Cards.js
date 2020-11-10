@@ -7,7 +7,8 @@ function Cards() {
   return (
     <div className='cards' style ={{backgroundColor:"#451F55"}}>
       <Fade Top className="container">
-      <div className='row '>
+       <div className="container"> 
+      <div className='row ' style={{maxWidth:"1120px"}}>
           
           <div className="col-md-4">
             <CardItem
@@ -47,7 +48,7 @@ function Cards() {
           <CardItem
           className='col-md-4'
               src='/assets/images/awards.jpg'
-              text='Award and Honours'
+              text='Achievements'
               path='/Awards'
             />
             </div>
@@ -61,7 +62,7 @@ function Cards() {
             </div>
           
         </div>
-      
+        </div>
       </Fade>
     </div>
   );

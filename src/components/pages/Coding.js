@@ -11,7 +11,17 @@ function Coding() {
   componentDidMount();
     return (
       
-        <div className="background" style={{background: 'url(' + process.env.PUBLIC_URL + '/assets/images/back.jpg) center center/cover no-repeat',paddingBottom:"30px"}}>
+        <div className="background"  style={{
+          '--color-1': '#243B55',
+          '--color-2': '#141E30',
+          background: `
+            linear-gradient(
+              170deg,
+              var(--color-1),
+              var(--color-2) 80%
+            )
+          `,
+          paddingBottom: 30}}>
          <Fade Top>
         <div className="container" >
         

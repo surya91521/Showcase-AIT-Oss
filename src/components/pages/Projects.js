@@ -11,7 +11,17 @@ function project() {
   componentDidMount();
     return (
        
-        <div className="projectTop" style={{'background': 'url('+process.env.PUBLIC_URL + '/assets/images/back.jpg) center center/cover no-repeat'}}>
+        <div className="projectTop" style={{
+          '--color-1': '#243B55',
+          '--color-2': '#141E30',
+          background: `
+            linear-gradient(
+              170deg,
+              var(--color-1),
+              var(--color-2) 80%
+            )
+          `,
+          padding: 30}}>
         <Fade Top>
         <h1 style={{fontFamily:"serif" ,color:"#fff"}}>Projects Section</h1>  
         </Fade>

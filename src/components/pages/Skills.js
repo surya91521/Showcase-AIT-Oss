@@ -42,7 +42,18 @@ function Skills() {
 
     componentDidMount();
         return (
-        <div className ="toppskills " style ={{ 'background': 'url('+process.env.PUBLIC_URL + '/assets/images/back.jpg) center center/cover no-repeat'}}>
+        <div className ="toppskills " style={{
+          '--color-1': '#243B55',
+          '--color-2': '#141E30',
+          background: `
+            linear-gradient(
+              170deg,
+              var(--color-1),
+              var(--color-2) 80%
+            )
+          `,
+          padding: 30}}>
+            
           <Fade Top>
          <div className="topsskills container"> 
           <div className="heading" style={{marginBottom:"50px"}}>
