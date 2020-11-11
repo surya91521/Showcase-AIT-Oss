@@ -52,7 +52,7 @@ function project() {
       <h5 class="card-title" style={{fontFamily:"serif"}}><strong>My PortFolio</strong></h5>
       <p class="card-text" style={{fontFamily:"serif"}}>It is the current portfolio which you are going through.Sorce code is uploaded in github.</p>
       <span class="badge badge-pill text-primary border border-primary" style={{marginRight:"5px"}}>React</span><span class="badge badge-pill text-primary border border-primary" style={{marginRight:"5px"}}>Boostrap</span><br /><br />
-      <a class="btn btn-primary" href="https://github.com/surya91521/InNerveApp">View on Github</a>
+      <a class="btn btn-primary" href="https://github.com/surya91521/Showcase-AIT-Oss">View on Github</a>
    </div>
   </div>
          <div className="card1 card text-center"style={{background:"LightCyan"}}>

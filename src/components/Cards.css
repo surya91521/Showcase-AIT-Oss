@@ -1,6 +1,7 @@
 .cards {
     padding: 4rem;
     background: #fff;
+    
   }
   
   h1 {
@@ -36,7 +37,7 @@
   
   .cards__item__link {
     display: flex;
-    background: rgb(146, 139, 243);
+    background: rgb(91, 81, 236);
     flex-flow: column;
     width: 100%;
     box-shadow: 0 6px 30px rgba(231, 233, 236, 0.17);
@@ -45,6 +46,7 @@
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
+    font-family: serif;
   }
   
   .cards__item__pic-wrap {
