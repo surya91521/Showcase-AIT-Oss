@@ -5,7 +5,7 @@ import Fade from 'react-reveal/Fade'
 
 function Cards() {
   return (
-    <div className='cards' style ={{backgroundColor:"#93A8AC"}}>
+    <div className='cards' style ={{backgroundColor:"#B2CEDE"}}>
       <Fade Top className="container">
        <div className="container"> 
       <div className='row ' style={{maxWidth:"1200px"}}>
