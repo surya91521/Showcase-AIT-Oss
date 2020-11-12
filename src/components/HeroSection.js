@@ -16,7 +16,7 @@ function HeroSection() {
   
     return (
      
-       <div style ={{backgroundColor:'#22162B',paddingLeft:"5px",paddingRight:"5px"}}>
+       <div style ={{backgroundColor:'#03254E',paddingLeft:"5px",paddingRight:"5px"}}>
         <div className = 'hero-container'>
          <div style={{ position: 'absolute'}}>
         <Particles height="100vh" width="100vw" params={particlesConfig} />
