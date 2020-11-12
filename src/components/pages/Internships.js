@@ -35,7 +35,7 @@ function Internships() {
       
             <div>
            <div class="card-columns container">
-           <div class="modal" id="myModal1" style={{boxShadow:"0 4px 8px 0 #26408B, 0 6px 20px 0 #59656F",border:"3px solid #9984D4"}}>  
+           <div class="modal" id="myModal1" style={{border:"3px solid #9984D4"}}>  
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
       
@@ -58,7 +58,7 @@ function Internships() {
       </div>
     </div>
   </div>
-           <div class="modal " id="myModal" >  
+           <div class="modal " id="myModal" style={{border:"3px solid #9984D4"}} >  
     <div class="modal-dialog modal-dialog-centered" >
       <div class="modal-content">
       

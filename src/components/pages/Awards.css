@@ -1,0 +1,23 @@
+
+.outerEnd{
+
+    background-position: center;
+    height: 100%;
+    min-height: 100vh;
+	background-size: cover;
+	padding-bottom: 50px;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .outerEnd{
+
+        background-position: center;
+        height: 100%;
+        min-height: 100vh;
+        background-size: cover;
+        padding-bottom: 50px;
+    }
+    
+  }

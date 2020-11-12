@@ -29,7 +29,6 @@
   .cards__item {
     display: flex;
     flex: 1;
-
     font-family: "serif";
     margin: 0 1rem;
     border-radius: 10px;
@@ -37,7 +36,7 @@
   
   .cards__item__link {
     display: flex;
-    background: rgb(91, 81, 236);
+    background-color: #1F2041;
     flex-flow: column;
     width: 100%;
     box-shadow: 0 6px 30px rgba(231, 233, 236, 0.17);
@@ -47,6 +46,7 @@
     overflow: hidden;
     text-decoration: none;
     font-family: serif;
+    
   }
   
   .cards__item__pic-wrap {
@@ -86,7 +86,7 @@
   }
   
   .cards__item__text {
-    color: #fff;
+    color: white;
     font-size: 18px;
     font-style:"Serif";
     line-height: 24px;

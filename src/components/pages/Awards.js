@@ -2,6 +2,7 @@ import React from 'react'
 import { Carousel } from 'react-responsive-carousel';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import Fade from 'react-reveal/Fade'
+import "./Awards.css"
 
 function componentDidMount() 
 {
@@ -11,8 +12,8 @@ function componentDidMount()
 function Awards() {
   componentDidMount();
     return (
-        <Fade Top>
-        <div   style={{
+        
+        <div  className='outerEnd' style={{
             '--color-1': '#243B55',
           '--color-2': '#141E30',
             background: `
@@ -22,38 +23,34 @@ function Awards() {
                 var(--color-2) 80%
               )
             `,
-        
-        
-            color: 'white',
-            textAlign: 'center',
-            paddingBottom: 20,
-            height:"120vh"
-          }}>
-            <h1 style={{fontFamily:"serif",marginBottom:"50px"}}>Achievements</h1>
+            paddingBottom: 20, }}>
+            <Fade Top>   
+            <h1 style={{fontFamily:"serif",marginBottom:"50px",color:"white"}}>Achievements</h1>
             <div className="container">
             <div class="carousel-wrapper" style={{maxWidth:"1120px"}}>
-            <Carousel infiniteLoop useKeyboardArrows autoPlay interval="3000" showIndicators='False' >
+            <Carousel infiniteLoop useKeyboardArrows autoPlay interval="2500" showIndicators='False'>
                 <div>
-                <img src="https://firebasestorage.googleapis.com/v0/b/agbi-b07a4.appspot.com/o/aak.jpg?alt=media&token=8a5630e7-1d4b-4905-8c92-22d4ffcc5c31"/>
+                <img src="https://firebasestorage.googleapis.com/v0/b/agbi-b07a4.appspot.com/o/aak.jpg?alt=media&token=99c75237-e3dc-4f14-b729-02a5c2889b72"/>
                 </div>
                 <div>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/agbi-b07a4.appspot.com/o/dist.jpg?alt=media&token=a0eaa6b8-6bc3-4d8b-9e5e-16756ab5d15a"/>
+                    <img src="https://firebasestorage.googleapis.com/v0/b/agbi-b07a4.appspot.com/o/dist.jpg?alt=media&token=5e023863-5738-4e8e-bb57-b4c3f5d3e55a"/>
                 </div>
                 <div>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/agbi-b07a4.appspot.com/o/ele.jpg?alt=media&token=3d1b6871-287f-456a-a626-ffb733e45958" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/agbi-b07a4.appspot.com/o/ele.jpg?alt=media&token=99299b18-901a-4d6e-8916-a510d4740ec1" />
                 </div>
                 <div>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/agbi-b07a4.appspot.com/o/pent.jpg?alt=media&token=306d6ca5-24a2-4191-8d45-ee686047bb67" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/agbi-b07a4.appspot.com/o/pent.jpg?alt=media&token=a7313565-a702-45d2-b3ac-bcae1d2e0cb2" />
                 </div>
                 <div>
-                    <img src="https://firebasestorage.googleapis.com/v0/b/agbi-b07a4.appspot.com/o/zest.jpg?alt=media&token=867d125f-0264-4c84-8b0e-8dda725ab292" />
+                    <img src="https://firebasestorage.googleapis.com/v0/b/agbi-b07a4.appspot.com/o/zest.jpg?alt=media&token=97485283-e884-4f97-afe8-12210903c903" />
                 </div>
                
             </Carousel>
         </div>
         </div>
-        </div>
         </Fade>
+        </div>
+       
     )
 }
 
