@@ -8,7 +8,7 @@ function Cards() {
     <div className='cards' style ={{backgroundColor:"#93A8AC"}}>
       <Fade Top className="container">
        <div className="container"> 
-      <div className='row ' style={{maxWidth:"1120px"}}>
+      <div className='row ' style={{maxWidth:"1200px"}}>
           
           <div className="col-md-4">
             <CardItem
