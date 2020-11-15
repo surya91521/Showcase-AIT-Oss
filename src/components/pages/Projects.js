@@ -20,15 +20,14 @@ function project() {
               var(--color-1),
               var(--color-2) 80%
             )
-          `,
-          padding: 30}}>
+          `}}>
         <Fade Top>
         <h1 style={{fontFamily:"serif" ,color:"#fff"}}>Projects Section</h1>  
         </Fade>
         <div class="card-columns container">
-        <Fade Top>
+   
         <div className="innermost">  
-        <div className="card1 card" style={{background:"LightCyan"}}>
+        <div className=" card" style={{background:"LightCyan",marginTop:"5px"}}>
   <img class="card-img-top" src={process.env.PUBLIC_URL + '/assets/images/inn.jpg'} alt="Card image cap"/>
     <div class="card-body text-center">
       <h5 class="card-title" style={{fontFamily:"serif"}}><strong>Innerve App</strong></h5>
@@ -37,7 +36,7 @@ function project() {
       <a class="btn btn-primary" href="https://github.com/surya91521/InNerveApp">View on Github</a>
     </div>
     </div>
-        <div className="card1 card" style={{background:"LightCyan"}}>
+        <div className=" card" style={{background:"LightCyan"}}>
     <img class="card-img-top" src={process.env.PUBLIC_URL + '/assets/images/gith.jpg'} alt="Card image cap"/>
     <div class="card-body text-center">
       <h5 class="card-title" style={{fontFamily:"serif"}}><strong>Git Repo Parser</strong></h5>
@@ -46,7 +45,7 @@ function project() {
       <a class="btn btn-primary" href="https://github.com/surya91521/GithubRepo">View on Github</a> 
     </div>
   </div>
-         <div className="card1 card text-center" style={{background:"LightCyan"}}>
+         <div className=" card text-center" style={{background:"LightCyan",marginTop:"5px"}}>
   <img class="card-img-top" src={process.env.PUBLIC_URL + '/assets/images/projects.jpg'} alt="Card image cap"/>
     <div class="card-body">
       <h5 class="card-title" style={{fontFamily:"serif"}}><strong>My PortFolio</strong></h5>
@@ -55,7 +54,7 @@ function project() {
       <a class="btn btn-primary" href="https://github.com/surya91521/Showcase-AIT-Oss">View on Github</a>
    </div>
   </div>
-         <div className="card1 card text-center"style={{background:"LightCyan"}}>
+         <div className=" card text-center"style={{background:"LightCyan"}}>
   <img class="card-img-top" src={process.env.PUBLIC_URL + '/assets/images/blen.jpg'} alt="Card image cap"/>
     <div class="card-body">
       <h5 class="card-title" style={{fontFamily:"serif"}}><strong>Blend</strong></h5>
@@ -64,7 +63,7 @@ function project() {
       <a class="btn btn-primary" href="https://github.com/surya91521/Blend">View on Github</a>
     </div>
   </div>
-         <div className="card1 card" style={{background:"LightCyan"}}>
+         <div className="card" style={{background:"LightCyan",marginTop:"5px"}}>
   <img class="card-img-top" src={process.env.PUBLIC_URL + '/assets/images/med.jpg'} alt="Card image cap"/>
     <div class="card-body text-center">
       <h5 class="card-title" style={{fontFamily:"serif"}}><strong>Medicare App</strong></h5>
@@ -73,7 +72,7 @@ function project() {
       <a class="btn btn-primary" href="https://github.com/surya91521/AGBI-Hackathon">View on Github</a>
     </div>
     </div>
-         <div className="card1 card text-center" style={{background:"LightCyan"}}>
+         <div className="card text-center" style={{background:"LightCyan"}}>
   <img class="card-img-top" src={process.env.PUBLIC_URL + '/assets/images/fit.jpg'} alt="Card image cap"/>
     <div class="card-body text-center">
       <h5 class="card-title" style={{fontFamily:"serif"}}><strong>Fitness Tracker</strong></h5>
@@ -84,7 +83,7 @@ function project() {
   </div>
         
          </div>
-         </Fade>
+         
          </div> 
          
          

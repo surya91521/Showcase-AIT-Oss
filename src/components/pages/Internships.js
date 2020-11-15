@@ -82,7 +82,7 @@ function Internships() {
     </div>
   </div>
                 <div className="innermost">  
-                <div className="card1 card" style={{background:"LightCyan"}}>
+                <div className="card" style={{background:"LightCyan",marginTop:"5px"}}>
   <img class="card-img-top" src={process.env.PUBLIC_URL + '/assets/images/pano.jpg'} alt="Card image cap" style={{padding:"20px"}}/>
     <div class="card-body text-center">
       <h5 class="card-title" style={{fontFamily:"serif"}}><strong>PanoSlice App</strong></h5>
@@ -93,7 +93,7 @@ function Internships() {
            
     </div>
     </div>
-                 <div className="card1 card" style={{background:"LightCyan"}}>
+                 <div className="card" style={{background:"LightCyan",marginTop:"5px"}}>
   <img class="card-img-top" src={process.env.PUBLIC_URL + '/assets/images/tut.jpg'} alt="Card image cap" style={{height:"355px"}}/>
     <div class="card-body text-center">
       <h5 class="card-title" style={{fontFamily:"serif"}}><strong>TutsWiki</strong></h5>

@@ -10,11 +10,11 @@ import Footer from '../Footer';
 function Home() {
   return (
     <>
-      
+    <div className="Curing" >  
       <HeroSection />
       <Cards />
       <Footer />
-     
+      </div>
     </>
     
   );
